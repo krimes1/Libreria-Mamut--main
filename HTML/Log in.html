@@ -18,10 +18,10 @@
         <img src="/img/logo-nuevo-xd.png.jpg" alt="" width="100px" style="margin-left: 35%; margin-bottom: 15%;" >
       </a>
       <form action="#">
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Contraseña">
+        <input type="text" id="loginEmail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="Contraseña">
         <a href="#">Olvidé la contraseña</a>
-        <input type="button" class="button" value="Ingresar">
+        <input type="button" class="button" value="Ingresar" id="loginButton">
       </form>
       <div class="signup">
         <span class="signup">¿No tienes cuenta?
@@ -35,10 +35,9 @@
         <img src="/img/logo-nuevo-xd.png.jpg" alt="" width="100px" style="margin-left: 35%; margin-bottom: 15%;" >
       </a>
       <form action="#">
-          <input type="text" placeholder="Ingresa tu Email">
-        <input type="password" placeholder="Crea una contraseña">
-        <input type="password" placeholder="Confirma tu contraseña">
-        <input type="button" class="button" value="Registrarse">
+          <input type="text" id="signupEmail" placeholder="Ingresa tu Email">
+          <input type="password" id="signupPassword" placeholder="Crea una contraseña">
+        <input type="button" class="button" value="Registrarse" id="signupButton">
       </form>
       <div class="signup">
         <span class="signup">Already have an account?
@@ -47,5 +46,9 @@
       </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/JS/javascript.js"></script>
+
+  
 </body>
 </html>
